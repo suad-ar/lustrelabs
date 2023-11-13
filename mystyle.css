@@ -1,0 +1,377 @@
+.navbar {
+    border: solid;
+    color:#813413;
+}
+
+.menu-buttons2 {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    
+}
+
+.mainmenu{
+    list-style-type: none;
+    font-family: Futura,"Trebuchet MS", Arial, sans-serif;
+    color:#ffff;
+
+}
+
+.mainmenu li{
+    font-size: 15px;
+    display: inline;
+    margin: 10px;
+    
+}
+.mainmenu a{
+    text-decoration: none;
+    color: #813413;
+}
+.mainmenu li:hover{
+    cursor: pointer;
+}
+
+.socialscontainer {
+    display:flex;
+}
+
+.socials-container {
+    list-style-type: none;
+    display: flex;
+    padding: 40px 40px;
+    font-family: Futura,"Trebuchet MS", Arial, sans-serif;
+    color:#ffff;
+    display: inline;
+}
+
+
+.socials-container li{
+    font-size: 20px;
+    margin: 10px;
+    
+}
+.socials-container a{
+    text-decoration: none;
+    color: #ffff;
+}
+.socials-container:hover{
+    cursor: pointer;
+}
+
+.image-row {
+    display: flex;
+  }
+  
+  .preview-column {
+    flex: 33.33%;
+    padding: 40px;
+    width: 25px;
+    font-family: 'Great Vibes';
+
+  }
+
+.preview-column img {
+    width: 400px;
+}
+
+.columns h1 {
+    color: #ebcd09;
+    text-align: center;
+    padding: 50px 50px;
+    font: 30px 'Futura Maxi CG Bold', sans-serif;
+    
+
+}
+
+.image-row2 {
+    display: flex;
+  }
+  
+  .preview-column2 {
+    flex: 25%;
+    width: 20px;
+    font-family: 'Great Vibes';
+
+  }
+
+.preview-column2 img {
+    width: 350px;
+    height: 350px;
+}
+
+.columns2 h1 {
+    color: #ebcd09;
+    text-align: center;
+    padding: 50px 50px;
+    font: 30px 'Futura Maxi CG Bold', sans-serif;
+
+} 
+    
+
+
+
+
+.statement-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 100px;
+    background-color: #ffead1;
+
+}
+
+.statement-bar {
+    border:solid;
+    color:#813413;
+
+}
+
+.statement-bar p{
+    color:#813413;
+    align-content: left;
+    font-size: 30px;
+}
+
+.filler-section img {
+    width: 500px;
+    padding-right: 100px;
+}
+
+
+
+.body {
+    font-family: 'Futura Maxi CG Bold', sans-serif; 
+    text-align: center;
+    color: #728C69;
+    list-style: none;
+    padding: 30px;
+                                                
+}
+
+.image {
+    align-items: center;
+    padding: 300px;
+
+}
+
+.smallheading {
+    font-family: 'Futura Maxi CG Bold', sans-serif; 
+    text-align: center;
+    color: #ebcd09;
+    list-style: none;
+
+}
+
+.smallheading2 {
+    font-family: 'Futura Maxi CG Bold', sans-serif; 
+    text-align: center;
+    color: #813413;;
+    list-style: none;
+}
+
+
+
+.about-bar {
+    padding: 100px 130px;
+    text-align: left;
+    font: italic bold 20px "Poppins", serif;
+    font-family: Futura,"Trebuchet MS", Arial, sans-serif;
+    align-items: center;
+    color:#728C69;
+    background-color: #ffff;
+
+}
+
+
+
+.centered {
+    position: absolute;
+    top: 150px;
+    right: 90px;
+    color:#ebcd09;
+    font: 30px 'Futura Maxi CG Bold', sans-serif;
+                                                                                            
+}   
+
+.centered2 {
+    position: absolute;
+    top: 100px;
+    right: 220px;
+                                                                                            
+}  
+
+
+.pageheading {
+    color: #ebcd09;
+    text-align: center;
+    padding: 50px 50px;
+    font: bold  50px 'Futura Maxi CG Bold', sans-serif;
+    border: 1px;
+}
+
+
+.email {
+    margin-block: 40px;
+}
+
+.socials-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 30px 30px;
+
+}
+
+.socials-container ul {
+    list-style-type: none;
+
+}
+.socials-container li img {
+    width: 100px;
+}
+
+.socials-container div {
+    margin-inline: auto;
+    }
+
+    @media (max-width: 768px) {
+        .header {
+            display: block;
+        }
+
+        .logo {
+            text-align: center;
+        }
+        .top-left {
+            position: static;
+            text-align: center;
+            margin-inline: auto;
+        }
+
+        .mainmenu {
+            padding: 0;
+            text-align: center;
+        }
+
+        .image-row, .filler-section {
+            display: block;
+        }
+
+        .preview-column {
+            padding: 0;
+            width: 100vw;
+        }
+
+        .preview-column p {
+            /* border: 1px solid red; */
+            width: 100vw;
+        }
+
+        .preview-column img {
+            margin-left: 10px;
+            /* border: 1px solid red; */
+        }
+
+        .filler-section .text, .filler-section img {
+            padding: 0;
+            font-size: 20px;
+        }
+
+        .filler-section img {
+            width: 60vw;
+            margin-inline: auto;
+        }
+
+        .banner-image img {
+            width: 100vw;
+        }
+
+        .menu-buttons2 {
+            display: block;
+        }
+
+        .about-bar {
+            padding: 3rem;
+        }
+
+        .exhibit img {
+            width: 60vw;
+        }
+
+        .socials-container {
+            display: block;
+        }
+
+        .contentbar {
+            padding: 1rem;
+        }
+
+        .icons {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+        }
+
+        .icons li {
+            padding: 0;
+        }
+
+    }
+@media screen and (max-width:768px){
+    .header {
+        display: block;
+    }
+    
+}
+
+.button{
+    width:300px;
+    height:50px;
+    align-items: left;
+    color:#d24e01
+}
+
+
+.contentbar-head {
+    align-items: center;
+    justify-content: center;
+    padding: 50px 100px;
+    background-color: #ffead1;
+
+}
+
+.contentbar-head {
+    border:solid;
+    color:#813413
+}
+
+.sidebyside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 80px;
+    background-color: #ffead1;
+
+}
+
+
+.sidebyside img {
+    width: 500px;
+    padding-right: 70px;
+
+}
+
+
+.servicebar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 100px;
+    background-color: #ffff;
+
+}
+
+.servicebar img {
+    width: 400px;
+    padding-right: 50px;
+}
